@@ -1,0 +1,15 @@
+ 
+body {
+  background-color:rgb(39, 40, 43);
+  color: #02f0e0;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  padding: 25px;
+}
+h1{
+color: rgba(255, 255, 255, 0.788);
+}
+
+p{
+  color: rgb(240, 2, 161);
+}
