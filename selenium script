@@ -1,0 +1,18 @@
+from selenium import webdriver
+import time
+from selenium.webdriver.common.keys import Keys
+print("sample test case started")
+driver = webdriver.Chrome()
+driver.maximize_window()
+driver.get("")
+time.sleep(4)
+driver.find_element("name", "First Name").send_keys("ARYAN")
+time.sleep(4)
+driver.find_element("name", "Middle Name").send_keys("ASHOK")
+time.sleep(4)
+driver.find_element("name", "Last Name").send_keys("JAIN")
+time.sleep(4)
+driver.find_element("name", "Submit").send_keys(Keys.ENTER)
+time.sleep(4)
+driver.close()
+print("sample test case successfully completed")
